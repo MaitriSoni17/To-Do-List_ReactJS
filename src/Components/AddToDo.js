@@ -45,7 +45,7 @@ export default function AddToDo(props) {
                     <select class="form-select rounded-pill shadow p-2 ps-4 fs-5 pe-3" id="status" value={status} onChange={(e) => { setStatus(e.target.value) }}>
                         <option value="Not Started" selected>Not Started</option>
                         <option value="Temporary Paused">Temporary Paused</option>
-                        <option value="Temporary Paused">Working</option>
+                        <option value="Working">Working</option>
                         <option value="Completed">Completed</option>
                     </select>
                 </div>
